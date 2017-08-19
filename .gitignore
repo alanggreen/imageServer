@@ -7,5 +7,3 @@ node_modules
 /test/*.js.map
 **/*.js
 **/*.d.ts
-.idea
-event-replay-engine.iml
