@@ -8,9 +8,9 @@
         "**/.hg": true,
         "**/*.js.map": true,
         "**/.DS_Store": true,
-        "**/*.js": {
-            "when": "$(basename).ts"
-        },
+        // "**/*.js": {
+        //     "when": "$(basename).ts"
+        // },
         "**/*.d.ts": {
             "when": "$(basename).ts"
         },
