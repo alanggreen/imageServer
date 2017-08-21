@@ -17,6 +17,14 @@ var fileServer = new staticAlias.Server('./images', {
         {
             match: '/challengeTheme',
             serve: 'FIRST-FLL-HYDRO-DYNAMICS-web-logo.png'
+        },
+        {
+            match: '/sponsor1',
+            serve: 'intelitek.png'
+        },
+        {
+            match: '/sponsor2',
+            serve: 'ModiinLogo.png'
         }
     ],
     logger: console
@@ -26,4 +34,4 @@ http.createServer(function (request, response) {
     request.addListener('end', function () {
         fileServer.serve(request, response);
     }).resume();
-}).listen(8080);
+}).listen(1395);
